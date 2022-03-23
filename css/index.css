@@ -1,0 +1,63 @@
+body {
+    color: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: cornflowerblue;
+;
+}
+
+.container {
+    padding: 16px;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.title {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 32px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding: 8px;
+}
+
+.col-3 {
+    padding: 8px;
+    flex: 3;
+}
+
+.col-6 {
+    padding: 8px;
+    flex: 6;
+}
+
+.col-12 {
+    padding: 8px;
+    flex: 12;
+}
+
+.mb4 {
+    margin-bottom: 16px;
+}
+
+.ml4 {
+    margin-left: 16px;
+}
